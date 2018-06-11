@@ -1,0 +1,27 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include <string>
+#include "comsedit.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::AbraButtonClick(TObject *Sender)
+{
+std::string dest;
+
+Comsedit::Compress(dest, RichEdit1->Lines.c_str());
+RichEdit2->Lines = c_str();
+
+}
+//---------------------------------------------------------------------------

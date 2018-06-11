@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.103,E:\Desktop\Prog\Unit1.h=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.663,E:\Desktop\Prog\Unit1.h=E:\Desktop\Prog\Edicomm.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.108,E:\Desktop\Prog\DiplomProjPCH1.h=E:\Desktop\Prog\EdiCommPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.866,=E:\Desktop\Prog\ABOUT.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.756,=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,E:\Desktop\Prog\Unit1.dfm=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.096,=E:\Desktop\Prog\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.468,E:\Desktop\Prog\Unit2.cpp=E:\Desktop\Prog\WarningForm.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.322,E:\Desktop\Prog\Project1PCH1.h=E:\Desktop\Prog\DiplomProjPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.292,E:\Desktop\Prog\Project1PCH1.h=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.663,E:\Desktop\Prog\Unit1.dfm=E:\Desktop\Prog\Edicomm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.146,E:\Desktop\Prog\DiplomProj.cbproj=E:\Desktop\Prog\EdiComm.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,E:\Desktop\Prog\Edicomm.h=E:\Desktop\Prog\mainForm.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.370,E:\Desktop\Prog\Project1.cbproj=E:\Desktop\Prog\DiplomProj.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.122,E:\Desktop\Prog\Project1.cbproj=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.545,=E:\Desktop\Prog\comsedit.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,E:\Desktop\Prog\Unit1.cpp=C:\Users\NickS\OneDrive\Документы\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.663,E:\Desktop\Prog\Unit1.cpp=E:\Desktop\Prog\Edicomm.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.934,=E:\Desktop\Diploma\Коля_дипл\Програма\comsedit.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.143,E:\Desktop\Diploma\Коля_дипл\Програма\comsedit.h=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.468,E:\Desktop\Prog\Unit2.dfm=E:\Desktop\Prog\WarningForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,E:\Desktop\Prog\Edicomm.dfm=E:\Desktop\Prog\mainForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.468,E:\Desktop\Prog\Unit2.h=E:\Desktop\Prog\WarningForm.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.120,E:\Desktop\Prog\Edicomm.cpp=E:\Desktop\Prog\mainForm.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

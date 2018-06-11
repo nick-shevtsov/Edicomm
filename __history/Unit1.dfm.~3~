@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'EdiComm'
+  ClientHeight = 379
+  ClientWidth = 777
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RichEdit1: TRichEdit
+    Left = 8
+    Top = 48
+    Width = 369
+    Height = 274
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 0
+    Zoom = 100
+  end
+  object RichEdit2: TRichEdit
+    Left = 383
+    Top = 48
+    Width = 386
+    Height = 274
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Lines.Strings = (
+      '')
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 1
+    Zoom = 100
+  end
+  object AbraButton: TButton
+    Left = 8
+    Top = 344
+    Width = 113
+    Height = 25
+    Caption = #1040#1073#1088#1072#1082#1072#1076#1072#1073#1088#1072
+    TabOrder = 2
+    OnClick = AbraButtonClick
+  end
+end

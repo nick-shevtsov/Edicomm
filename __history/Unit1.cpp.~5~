@@ -1,0 +1,34 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include <string>
+#include "comsedit.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::N4Click(TObject *Sender)
+{
+AnsiString source = RichEdit1->Lines->Text;
+std::string src(source.c_str());
+std::string dst;
+Comsedit::Compress(dst, src);
+RichEdit2->Lines->Text = AnsiString(dst.c_str());
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::N21Click(TObject *Sender)
+{
+ exit(0);
+}
+//---------------------------------------------------------------------------
+

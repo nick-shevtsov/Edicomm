@@ -1,0 +1,46 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "WarningForm.h"
+#include "mainForm.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TWarnForm *WarnForm;
+//---------------------------------------------------------------------------
+__fastcall TWarnForm::TWarnForm(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TWarnForm::YesButtClick(TObject *Sender)
+{
+MNForm->RichEdit2->PlainText=true;
+if(MNForm->SaveDialog1->Execute())
+	{
+	MNForm->Label2->Caption = MNForm->SaveDialog1->FileName;
+	MNForm->RichEdit2->Lines->SaveToFile(MNForm->SaveDialog1->FileName);
+	}
+MNForm->RichEdit2->PlainText=false;
+WarnForm->Close();
+exit(0);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TWarnForm::DeclineButtClick(TObject *Sender)
+{
+WarnForm->Close();
+MNForm->SetFocus();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TWarnForm::NoButtClick(TObject *Sender)
+{
+exit(0);
+}
+//---------------------------------------------------------------------------
+
